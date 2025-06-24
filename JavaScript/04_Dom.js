@@ -76,3 +76,14 @@ btn.addEventListener("click", function () {
 });
 
 
+/*
+----------------------------------------------------
+✅ Common DOM Properties:
+----------------------------------------------------
+- innerText → text inside element
+- innerHTML → HTML inside element
+- style → access CSS styles
+- classList → add/remove/toggle CSS classes
+- value → for input fields
+====================================================
+*/
