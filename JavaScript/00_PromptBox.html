@@ -1,0 +1,60 @@
+/* 
+--------------------------------------
+📌 JavaScript Prompt Box - Notes
+--------------------------------------
+
+✅ What is a Prompt Box?
+A prompt box is used to take input from the user via a small popup dialog.
+It returns the text entered by the user, or null if the user clicks "Cancel".
+
+✅ Syntax:
+prompt("message", "defaultText");
+
+- "message": The message shown in the popup.
+- "defaultText": (Optional) Pre-filled value in the input field.
+
+✅ Behavior:
+- If the user clicks OK → it returns the input value (as a string).
+- If the user clicks Cancel → it returns null.
+
+--------------------------------------
+💡 Example Code: Prompt Box in HTML
+--------------------------------------
+*/
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prompt Box Example</title>
+</head>
+<body>
+
+  <h2>Click the button to enter your name:</h2>
+
+  <button onclick="getName()">Try Prompt</button>
+
+  <p id="output"></p>
+
+  <script>
+    function getName() {
+      let name = prompt("Please enter your name:", "Guest");
+
+      if (name !== null && name !== "") {
+        document.getElementById("output").innerHTML = "Hello, " + name + "!";
+      } else {
+        document.getElementById("output").innerHTML = "You canceled or didn't enter anything.";
+      }
+    }
+  </script>
+
+</body>
+</html>
+
+/*
+--------------------------------------
+✅ Summary:
+- Use `prompt()` when you need to ask the user for input.
+- Always check if the result is null or empty before using it.
+- Prompt boxes are blocking (pause code execution until input is received).
+--------------------------------------
+*/

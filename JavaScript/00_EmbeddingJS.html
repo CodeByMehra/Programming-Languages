@@ -1,0 +1,74 @@
+<!-- 
+--------------------------------------------
+📘 JavaScript Embedding in HTML5 – VS Code Note
+--------------------------------------------
+
+✅ 3 Common Ways to Embed JavaScript:
+1️⃣ Inline JavaScript – inside HTML elements.
+2️⃣ Internal JavaScript – inside <script> tag in HTML.
+3️⃣ External JavaScript – via separate .js file using <script src="...">.
+
+--------------------------------------------
+💡 Example: Full HTML5 Page with All 3 Methods
+--------------------------------------------
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript in HTML5</title>
+
+  <!-- ✅ Internal JavaScript -->
+  <script>
+    function showInternalMessage() {
+      alert("This is from Internal JavaScript!");
+    }
+  </script>
+</head>
+
+<body>
+  <h1>Embedding JavaScript in HTML5</h1>
+
+  <!-- ✅ Inline JavaScript -->
+  <button onclick="alert('Hello from Inline JavaScript!')">Click Inline JS</button>
+  <br><br>
+
+  <!-- ✅ Internal JavaScript (calls function defined in head) -->
+  <button onclick="showInternalMessage()">Click Internal JS</button>
+  <br><br>
+
+  <!-- ✅ External JavaScript (calls function from external .js file) -->
+  <button onclick="externalMessage()">Click External JS</button>
+
+  <!-- ✅ Linking External JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- 
+--------------------------------------------
+📝 Create a separate file named script.js
+--------------------------------------------
+📁 File: script.js
+-->
+
+/*
+  script.js – External JavaScript File
+*/
+
+function externalMessage() {
+  alert("This is from External JavaScript!");
+}
+
+<!-- 
+--------------------------------------------
+✅ Summary:
+
+✔ Inline JS: Quick but not reusable.
+✔ Internal JS: Useful for small scripts in the same HTML file.
+✔ External JS: Best practice. Keeps JS code separate and clean.
+
+💡 Best Practice: Use external JS for modular and maintainable code.
+--------------------------------------------
+-->
