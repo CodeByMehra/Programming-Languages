@@ -83,7 +83,7 @@ for i in range(5):
         break
     print(i)
 else:
-    print("This won't print")
+    print("This would not print")
 
 # -------------------------------------------
 # ✅ LOOPING with ENUMERATE()
