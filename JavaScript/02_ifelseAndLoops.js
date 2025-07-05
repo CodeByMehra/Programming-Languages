@@ -90,7 +90,7 @@ for (let fruit of fruits) {
 -------------------------------------------------------
 */
 let person = {
-  name: "Vishal",
+  name: "Vishal Mehra",
   age: 21,
   city: "Delhi"
 };
