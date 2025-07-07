@@ -14,7 +14,7 @@
 age = 18
 
 if age >= 18:
-    print("You are eligible for voting.")
+    print("You are eligible to vote.")
 
 # -------------------------------------------
 # ✅ if-else Statement
