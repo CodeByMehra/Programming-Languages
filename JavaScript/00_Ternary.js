@@ -18,7 +18,7 @@ let age = 18;
 
 // Ternary Operator
 let voteMessage = (age >= 18) 
-  ? "You are eligible to vote." 
+  ? "You are eligible for voting." 
   : "You are not eligible to vote.";
 
 console.log(voteMessage);  // Output: You are eligible to vote.
