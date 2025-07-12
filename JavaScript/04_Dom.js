@@ -43,7 +43,7 @@ let allBoxes = document.querySelectorAll(".box");
 
 let title = document.getElementById("main-heading");
 title.innerText = "Updated Heading";         // Change text
-title.style.color = "blue";                 // Change style
+title.style.color = "black";                 // Change style
 title.style.fontSize = "30px";              // CSS manipulation
 
 /*

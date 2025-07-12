@@ -25,7 +25,7 @@ for fruit in fruits:
     print(fruit)
 
 # --- Iterating over a string
-for char in "hello":
+for char in "hello there":
     print(char)
 
 # --- Nested for loop
@@ -83,7 +83,7 @@ for i in range(5):
         break
     print(i)
 else:
-    print("This won't print")
+    print("This would not print")
 
 # -------------------------------------------
 # ✅ LOOPING with ENUMERATE()
