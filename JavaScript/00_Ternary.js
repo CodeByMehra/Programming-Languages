@@ -31,7 +31,7 @@ console.log(voteMessage);  // Output: You are eligible to vote.
 
 let number = 7;
 
-let result = (number % 2 === 0) ? "Even" : "Odd Number";
+let result = (number % 2 === 0) ? "Even" : "Odd ";
 console.log("The number is", result);  // Output: The number is Odd
 
 /*
