@@ -62,7 +62,7 @@ console.log(typeof data); // Output: boolean
 // -------------------------------------------
 
 // --- String to Number
-let str = "123";
+let str = "12345";
 let num = Number(str);   // 123
 
 // --- Number to String
